@@ -17,7 +17,7 @@ title: {{ site.name }}
 	
 var category={"ChromeExtended":"Chrome 扩展","AndroidApplication":"安卓应用"};
 [].forEach.call(document.getElementsByTagName('h2'),function(e){
-	e.innerText=category[e.innerText]
+	if(category[e.innerText])e.innerText=category[e.innerText]
 })
 
 </script>
