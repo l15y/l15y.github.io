@@ -20,6 +20,9 @@ function onTransmitFinish() {
 
 function onClick(e) {
     if(!btn)onDOMLoad()
+    if (payload === "") {
+        return;
+    }
     e.target.removeEventListener(e.type, arguments.callee);
     e.target.disabled = true;
     var originalText = e.target.innerText;
@@ -30,7 +33,8 @@ function onClick(e) {
         onTransmitFinish();
         return;
     }
-    transmit.transmit(Quiet.str2ab(payload));
+    tx=Quiet.str2ab(payload)
+    transmit.transmit(tx);
 };
 
 function onQuietReady() {
