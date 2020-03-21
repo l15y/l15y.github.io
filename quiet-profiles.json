@@ -6,7 +6,7 @@
     "outer_fec_scheme": "rs8",
     "frame_length": 100,
     "modulation": {
-      "center_frequency": 17000,
+      "center_frequency": 7000,
       "gain": 0.1
     },
     "interpolation": {
