@@ -2,7 +2,12 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta content="True" name="HandheldFriendly" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Send Text</title>
 
     <script type="text/javascript" src="quiet.js"></script>
@@ -18,9 +23,9 @@
       <section>
       <div class="hidden" data-quiet-warning></div>
       <div class="form-group">
-        <textarea autofocus="true" autocapitalize="none" autocomplete="off" spellcheck="off" class="form-control" style="resize:none" rows="5" data-quiet-text-input></textarea>
+        <textarea autofocus="true" autocapitalize="none" autocomplete="off" spellcheck="off" class="form-control" style="resize:none" rows="5" data-quiet-text-input>qwertyuiop[]</textarea>
       </div>
-      <button type="button" class="btn btn-default" style="width:100%" data-quiet-send-button data-quiet-sending-text="Sending...">Send</button>
+      <button type="button" class="btn btn-default" data-quiet-send-button data-quiet-sending-text="Sending...">Send</button>
       </section>
     </div>
   </body>

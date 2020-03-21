@@ -1,10 +1,10 @@
 {
   "audible":{
-    "mod_scheme": "qam16",
+    "mod_scheme": "qam8",
     "checksum_scheme": "none",
     "inner_fec_scheme": "none",
     "outer_fec_scheme": "v29",
-    "frame_length": 100,
+    "frame_length": 200,
     "modulation": {
       "center_frequency": 16500,
       "gain": 0.1
@@ -25,7 +25,7 @@
       "filter_bank_size": 32
     },
     "ofdm": {
-      "num_subcarriers": 128,
+      "num_subcarriers": 232,
       "cyclic_prefix_length": 8,
       "taper_length": 8,
       "left_band": 4,
