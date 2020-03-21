@@ -6,12 +6,12 @@
     "outer_fec_scheme": "rs8",
     "frame_length": 100,
     "modulation": {
-      "center_frequency": 20000,
+      "center_frequency": 17000,
       "gain": 0.1
     },
     "interpolation": {
       "shape": "kaiser",
-      "samples_per_symbol": 10,
+      "samples_per_symbol": 8,
       "symbol_delay": 4,
       "excess_bandwidth": 0.35
     },
