@@ -3,26 +3,26 @@
     "mod_scheme": "qpsk",
     "checksum_scheme": "none",
     "inner_fec_scheme": "none",
-    "outer_fec_scheme": "v29",
+    "outer_fec_scheme": "v27",
     "frame_length": 100,
     "modulation": {
       "center_frequency": 16000,
-      "gain": 0.1
+      "gain": 0.2
     },
     "interpolation": {
       "shape": "kaiser",
-      "samples_per_symbol": 15,
+      "samples_per_symbol": 64,
       "symbol_delay": 1,
-      "excess_bandwidth": 0.31
+      "excess_bandwidth": 0.5
     },
     "encoder_filters": {
       "dc_filter_alpha": 0.01
     },
     "resampler": {
-      "delay": 13,
+      "delay": 15,
       "bandwidth": 0.45,
-      "attenuation": 60,
-      "filter_bank_size": 64
+      "attenuation": 30,
+      "filter_bank_size": 32
     }
   },
   "audible-7k-channel-0": {
