@@ -11,7 +11,7 @@
     },
     "interpolation": {
       "shape": "kaiser",
-      "samples_per_symbol": 15,
+      "samples_per_symbol": 9,
       "symbol_delay": 2,
       "excess_bandwidth": 0.9
     },
@@ -25,7 +25,7 @@
       "filter_bank_size": 32
     },
     "ofdm": {
-      "num_subcarriers": 232,
+      "num_subcarriers": 256,
       "cyclic_prefix_length": 8,
       "taper_length": 8,
       "left_band": 4,
