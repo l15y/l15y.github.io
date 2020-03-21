@@ -1,19 +1,19 @@
 {
   "audible": {
-    "mod_scheme": "psk2",
-    "checksum_scheme": "crc32",
-    "inner_fec_scheme": "v27",
-    "outer_fec_scheme": "rs8",
-    "frame_length": 100,
+    "mod_scheme": "qam16",
+    "checksum_scheme": "none",
+    "inner_fec_scheme": "none",
+    "outer_fec_scheme": "v29",
+    "frame_length": 500,
     "modulation": {
-      "center_frequency": 6200,
+      "center_frequency": 16500,
       "gain": 0.1
     },
     "interpolation": {
       "shape": "kaiser",
       "samples_per_symbol": 10,
-      "symbol_delay": 4,
-      "excess_bandwidth": 0.35
+      "symbol_delay": 2,
+      "excess_bandwidth": 0.9
     },
     "encoder_filters": {
       "dc_filter_alpha": 0.01
@@ -22,14 +22,14 @@
       "delay": 13,
       "bandwidth": 0.45,
       "attenuation": 60,
-      "filter_bank_size": 64
+      "filter_bank_size": 32
     },
     "ofdm": {
-      "num_subcarriers": 128,
-      "cyclic_prefix_length": 16,
-      "taper_length": 4,
-      "left_band": 0,
-      "right_band": 0
+      "num_subcarriers": 256,
+      "cyclic_prefix_length": 8,
+      "taper_length": 8,
+      "left_band": 4,
+      "right_band": 10
     }
   },
   "audible-7k-channel-0": {
