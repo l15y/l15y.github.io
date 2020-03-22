@@ -10,7 +10,6 @@ var warningbox;
 var transmit;
 
 function onTransmitFinish() {
-    textbox.focus();
     btn.addEventListener('click', onClick, false);
     btn.disabled = false;
     var originalText = btn.innerText;
